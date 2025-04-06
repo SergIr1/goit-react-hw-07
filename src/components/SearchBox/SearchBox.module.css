@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.textLabel {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: rgb(255, 255, 255);
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(236, 230, 230, 0.05) 0px 1px 1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  box-shadow: rgba(236, 230, 230, 0.05) 0px 1px 1px;
+}
