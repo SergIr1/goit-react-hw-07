@@ -1,7 +1,13 @@
-/* .list {
-  margin-bottom: 100px;
-} */
+.list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-.item:not(:last-child) {
-  margin-bottom: 10px;
+.item {
+  width: calc((100% - 20px) / 3);
 }
